@@ -5,6 +5,7 @@ function profile() {
     fetch(url)
         .then(function (res) { return (res.json()) })
         .then(function (data) {
+            console.log(data)
             let result = '<h1>Users Profile</h1>';
             data.forEach(function (user) {
                 result += `
