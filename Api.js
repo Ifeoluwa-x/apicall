@@ -19,7 +19,6 @@ function profile() {
                             <li> Company Name: ${user.company.name} </li>
                              </ul>`
             }
-
             );
             document.querySelector(".output").innerHTML = result
 
